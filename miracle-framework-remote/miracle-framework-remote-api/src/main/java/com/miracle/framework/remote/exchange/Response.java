@@ -24,4 +24,8 @@ public final class Response implements Serializable {
 		this.returnValue = null;
 		this.exception = exception;
 	}
+
+	public long getMessageId() {
+		return messageId;
+	}
 }

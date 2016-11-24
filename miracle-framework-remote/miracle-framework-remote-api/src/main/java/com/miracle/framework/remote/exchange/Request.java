@@ -20,4 +20,8 @@ public final class Request implements Serializable {
 		this.method = method;
 		this.parameters = parameters;
 	}
+
+    public long getMessageId() {
+        return messageId;
+    }
 }
