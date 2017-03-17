@@ -10,6 +10,9 @@ import lombok.Getter;
 public class Foo implements Serializable {
 	
 	private static final long serialVersionUID = 2213133522077991039L;
-	
+
+	public Foo(String bar){
+		this.bar = bar;
+	}
 	private String bar;
 }
